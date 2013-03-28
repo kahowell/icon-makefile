@@ -2,14 +2,14 @@ About
 -----
 This Makefile generates 16x16, 32x32, 48x48, and 64x64 icons from a set of
 16x16 "base" icons. Each base icon is stretched using [hq2x, hq3x, and 
-hq4x][hqx], and is a shadow is added and tinting to many colors using
-[ImageMagick][].
+hq4x][hqx], and a shadow is added and tinting to many colors is performed 
+using [ImageMagick][].
 
 [hqx]: http://code.google.com/p/hqx
 [ImageMagick]: http://www.imagemagick.org
 
-Prequisites
------------
+Prerequisites
+-------------
 Build hqx from source and put the `hqx` binary somewhere in your path.
 Have ImageMagick installed.
 
